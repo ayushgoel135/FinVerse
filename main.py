@@ -1,5 +1,5 @@
 import streamlit as st
-from pulp import LpMaximize, LpProblem, LpVariable
+from pulp import *
 import numpy as np
 import pandas as pd
 import sqlite3
